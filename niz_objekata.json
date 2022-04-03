@@ -1,0 +1,38 @@
+[
+  {
+    "Grad": "Belgrade",
+    "Drzava": "Serbia",
+    "Temperatura": 15,
+    "Geo. sirina": 44.8,
+    "Geo. duzina": 20.5,
+    "Vlaznost": 30,
+    "Vaz. pritisak": 1080
+  },
+  {
+    "Grad": "Priboj",
+    "Drzava": "Serbia",
+    "Temperatura": 4,
+    "Geo. sirina": 43.6,
+    "Geo. duzina": 19.5,
+    "Vlaznost": 50,
+    "Vaz. pritisak": 1100
+  },
+  {
+    "Grad": "New York",
+    "Drzava": "USA",
+    "Temperatura": 9,
+    "Geo. sirina": 40.8,
+    "Geo. duzina": -73.2,
+    "Vlaznost": 45,
+    "Vaz. pritisak": 1080
+  },
+  {
+    "Grad": "Berlin",
+    "Drzava": "Germany",
+    "Temperatura": -2,
+    "Geo. sirina": 52.5,
+    "Geo. duzina": 13.4,
+    "Vlaznost": 10,
+    "Vaz. pritisak": 1050
+  }
+]

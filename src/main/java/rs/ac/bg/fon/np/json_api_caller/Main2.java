@@ -16,10 +16,10 @@ public class Main2 {
 		
 		TrenutnoVreme[] tv_niz = {tv1,tv2,tv3,tv4};
 
-		try(PrintWriter out = new PrintWriter(new FileWriter("niz_objekata.json"))) {
+		try(PrintWriter pw = new PrintWriter(new FileWriter("niz_objekata.json"))) {
 			Gson gson = new GsonBuilder().setPrettyPrinting().create();
 			
-			System.out.println(gson.toJson(tv_niz));
+			pw.println(gson.toJson(tv_niz));
 			
 		}catch (Exception e) {
 			e.printStackTrace();
