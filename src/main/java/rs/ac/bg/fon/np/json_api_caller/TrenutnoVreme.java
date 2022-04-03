@@ -20,9 +20,6 @@ public class TrenutnoVreme {
 	@SerializedName("Geo. duzina")
 	private double lon;
 	
-	@SerializedName("Trenutno vreme")
-	private Date localtime;
-	
 	@SerializedName("Vlaznost")
 	private int humidity;
 	
@@ -69,13 +66,6 @@ public class TrenutnoVreme {
 		this.lon = lon;
 	}
 
-	public Date getLocaltime() {
-		return localtime;
-	}
-
-	public void setLocaltime(Date localtime) {
-		this.localtime = localtime;
-	}
 
 	public int getHumidity() {
 		return humidity;
@@ -96,9 +86,10 @@ public class TrenutnoVreme {
 	@Override
 	public String toString() {
 		return "TrenutnoVreme [name=" + name + ", country=" + country + ", temperature=" + temperature + ", lat=" + lat
-				+ ", lon=" + lon + ", localtime=" + localtime + ", humidity=" + humidity + ", pressure=" + pressure
-				+ "]";
+				+ ", lon=" + lon + ", humidity=" + humidity + ", pressure=" + pressure + "]";
 	}
+
+	
 	
 	
 }
