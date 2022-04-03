@@ -14,7 +14,7 @@ import java.sql.Date;
 
 public class Main1 {
 	
-	public static final String ACCESS_KEY = "f69d49758e23676e52a93f611d845d74";
+	public static final String ACCESS_KEY = "";
 	public static final String QUERY = "Belgrade";
 	
 	public static void main(String[] args) {

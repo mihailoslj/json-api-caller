@@ -25,6 +25,22 @@ public class TrenutnoVreme {
 	
 	@SerializedName("Vaz. pritisak")
 	private int pressure;
+	
+	public TrenutnoVreme() {
+		
+	}
+
+	public TrenutnoVreme(String name, String country, int temperature, double lat, double lon, int humidity,
+			int pressure) {
+		super();
+		this.name = name;
+		this.country = country;
+		this.temperature = temperature;
+		this.lat = lat;
+		this.lon = lon;
+		this.humidity = humidity;
+		this.pressure = pressure;
+	}
 
 	public String getName() {
 		return name;
